@@ -4,16 +4,108 @@ body{
 }
 
 .kk{
+padding: 1%;
+}
 
+nav{
+   
+    justify-content:flex-end;
+    color:var(--cor-2);
     background-color: var(--cor-4);
-    display: flex;
-    justify-content: flex-end;
     align-items: center;
     text-decoration: none;
-    width: ;
-    height: 100px;
-    top: 0%;
-    left: 0%;
+    color: white;
+    width:100% ;
+    height: 120px; 
+    top: 0%; left: 0%;
     position: fixed;
+    margin: -38px;
+    margin-left: 0px;
+
 }
+.nai button{
+margin-top: -59px;
+width: 15%;
+margin-left: 80%;
+
+}
+
+ul{
+    display: flex;
+    /* justify-content: space-between; */
+    list-style-type: none;
+    align-items: center;
+    
+
+}
+.oi img{
+
+    height: 59px;
+    border-radius: 12px;
+    margin-left: 2%; 
+    margin-top: 46px;
+    
+}
+
+/* From Uiverse.io by AlimurtuzaCodes */ 
+.btn {
+    border: none;
+    width: 10em;
+    height: 4em;
+    border-radius: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    background: #f0ecf0;
+    cursor: pointer;
+    transition: all 450ms ease-in-out;
+  }
+  
+  .sparkle {
+    fill: #ff000000;
+    transition: all 800ms ease;
+  }
+  
+  .text {
+    font-weight: 600;
+    color: #AAAAAA;
+    font-size: medium;
+  }
+  
+  .btn:hover {
+    background: linear-gradient(0deg, var(--cor-3),var(--cor-6));
+    box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.4),
+    inset 0px -4px 0px 0px rgba(206, 46, 46, 0.2),
+    0px 0px 0px 4px var(--cor-2),
+    0px 0px 180px 0px #be537a;
+    transform: translateY(-2px);
+  }
+  
+  .btn:hover .text {
+    color: white;
+  }
+  
+  .btn:hover .sparkle {
+    fill: rgb(250, 247, 247);
+    transform: scale(1.2);
+  } 
+
+  .containe{
+    /* margin-top:-80% ;
+    align-items: center;
+    width: 108%;
+    margin-left: 108%;
+    display: flex;
+   justify-content: flex-end; */
+   background-position: center;
+   border: 1000px solid #05050500;
+  }
+
+
+ 
+
+
+ 
+  
 
