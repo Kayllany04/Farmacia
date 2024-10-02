@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import './Header.css'
 
 function Header() {
@@ -25,11 +24,20 @@ function Header() {
                   </button>
       </nav>
 
+         <h1>SEJA BEM VINDO <br />A INAUGURAÇÃO</h1>
+       <div className='jami'>
+               
+        <img src="farmarcia.PNG.png" alt="logo sem fundo" />
+       </div>
+
+
         
-         <div className='containe'>
+         {/* <div className='containe'>
              <img  src="farmarcia-sem fundo.png" alt="Logo" /> 
          </div>
-<p>Seja bem vindo a inalguração da Farmárcia</p>
+          
+          <h1>SEJA BEM VINDO <br />A INAUGURAÇÃO</h1> */}
+
 
 
     </div>
