@@ -1,5 +1,8 @@
+.titulo
+{
 
-
+  border: #be537a solid;
+}
 .kk{
 padding: 1%;
 }
@@ -15,16 +18,19 @@ nav{
     width:100% ;
     height: 120px; 
     top: 0%; left: 0%;
-    position: fixed;
-    margin: -38px;
-    margin-left: 0px;
-
+    
 }
 .nai button{
-margin-top: -59px;
-width: 15%;
-margin-left: 80%;
+  width: 15%;
+}
 
+.nai{
+  display: flex;
+  justify-content:space-between;
+  padding: 25px;
+}
+p{
+  font-size: 40px;
 }
 
 ul{
@@ -37,12 +43,12 @@ ul{
 }
 .oi img{
 
-    height: 59px;
-    border-radius: 12px;
-    margin-left: 2%; 
-    margin-top: 46px;
-    
+    height: 80px;
+    border-radius: 5%;
+    padding: 15px;
+    padding-top: 3%;
 }
+ 
 
 /* From Uiverse.io by AlimurtuzaCodes */ 
 .btn {
@@ -88,32 +94,31 @@ ul{
     transform: scale(1.2);
   } 
 
+  btn{
+    padding:20%; 
+  }
+
   .jami {
-   /* margin-top:-80% ;
-    align-items: center;
-    width: 108%;
-    margin-left: 108%;
-    display: flex;
-   justify-content: flex-end; 
-   background-position: center;
-   border: 1000px solid #05050500; */
-   margin-top: -28%;
-   margin-left: 60%;
-   width: 570px;
-   height: px;
-   border: 1px solid pink;
-   
+  
+   width: 55%;
+  
   }
 
   h1{
-    margin: 240px;
-    margin-left: 3%;
-    font-size: 70px;
-    top: 50px;
-    border: 1px solid ;
-    display: inline-block;
+    font-size: 69px;
+    width: 50% ;
+    color: var( --cor-1);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 45px;
   }
 
+  .body_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    padding-top: 5%;
+  }
 
  
 
